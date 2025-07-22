@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="upper-footer">
+    <div *ngIf="router.url === '/dashboard'" class="upper-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="footer-logo">
-                        <img src="/assets/logo/google-1088004_640.png" alt="Globussoft Logo">
+                        <img src="/assets/logo/google-1088004_640.png" alt="xyzsoft Logo">
                         <p>Fueling next-gen enterprises with the intelligence, automation, and design to thrive in a
                             world shaped by AI.</p>
                     </div>
@@ -28,8 +28,8 @@
                     <div class="footer-discover">
                         <h3>Discover</h3>
                         <ul>
-                            <li><a routerLink="/products" routerLinkActive="active fw-bold link-dark">Products</a></li>
-                            <li><a routerLink="/services" routerLinkActive="active fw-bold link-dark">Services</a></li>
+                            <li><a routerLink="/products" routerLinkActive="active fw-bold">Products</a></li>
+                            <li><a routerLink="/services" routerLinkActive="active fw-bold">Services</a></li>
                             <li><a href="#">AI Studio</a></li>
                             <li><a href="#">Vacancies</a></li>
                         </ul>
@@ -59,9 +59,10 @@
                                         alt="YouTube"></a></li>
                         </ul>
                         <p>
-  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="24" style="vertical-align: middle; margin-right: 8px;">
-  <a href="mailto:support@globussoft.com">{{ 'support@xyzsoft.com' }}</a>
-</p>
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="24"
+                                style="vertical-align: middle; margin-right: 8px;">
+                            <a href="mailto:support@globussoft.com">{{ 'support@xyzsoft.com' }}</a>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -11,5 +11,5 @@ import { Header } from './shared/reusableComponent/header/header';
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('indian-oil');
+  protected readonly title = signal('dev-website');
 }

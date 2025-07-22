@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "indian-oil": {
+    "dev-website": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -71,10 +71,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "indian-oil:build:production"
+              "buildTarget": "dev-website:build:production"
             },
             "development": {
-              "buildTarget": "indian-oil:build:development"
+              "buildTarget": "dev-website:build:development"
             }
           },
           "defaultConfiguration": "development"
