@@ -1,0 +1,170 @@
+.product-ecosystem {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f2f6fa;
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    .product-item {
+      background-color: white;
+      border-radius: 50%;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 80px;
+        max-height: 80px;
+      }
+    }
+  }
+}
+
+.emp-cloud-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+
+  .product-image {
+    flex: 1;
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .product-info {
+    flex: 1;
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.emp-monitor-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+  background-color: #f0f8ff;
+
+  .product-image {
+    flex: 1;
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .product-info {
+    flex: 1;
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.power-ad-spy-section,
+.power-browser-section,
+.socinator-section,
+.calorie-tracker-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+
+  .product-image {
+    flex: 1;
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .product-info {
+    flex: 1;
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}

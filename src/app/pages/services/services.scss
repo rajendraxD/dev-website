@@ -1,0 +1,93 @@
+.gen-ai-services {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-img-top {
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 1.125rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-footer {
+      padding: 0.75rem;
+      background-color: #00b3e6 !important;
+      border-top: none;
+
+      button {
+        font-weight: 500;
+        font-size: 1rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/*  */
+.ai-marketing-services {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-body {
+      padding: 2rem;
+
+      img {
+        height: 60px;
+      }
+
+      h5 {
+        margin-top: 1rem;
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+
+    .card-footer {
+      padding: 0.75rem;
+      background-color: #00b3e6 !important;
+      border-top: none;
+
+      button {
+        font-weight: 500;
+        font-size: 1rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
